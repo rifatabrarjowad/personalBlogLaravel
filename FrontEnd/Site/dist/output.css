@@ -564,3 +564,7 @@ video {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
 }
+
+#bang{
+  color: red;
+}
