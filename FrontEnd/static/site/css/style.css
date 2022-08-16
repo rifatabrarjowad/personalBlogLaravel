@@ -1,0 +1,12 @@
+* {
+  background: radial-gradient(
+    ellipse at right bottom,
+    #eeb1bf 5%,
+    #d42dab 15%,
+    #4d1d63 50%,
+    #030243 100%
+  );
+
+  height: 100%;
+  color: white;
+}
