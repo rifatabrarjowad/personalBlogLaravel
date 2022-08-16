@@ -10,6 +10,7 @@ body {
     #030243 100%
   );
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   height: 100%;
   color: white !important;
