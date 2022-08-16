@@ -1,4 +1,7 @@
-* {
+html {
+  height: 100%;
+}
+body {
   background: radial-gradient(
     ellipse at right bottom,
     #eeb1bf 5%,
@@ -6,7 +9,12 @@
     #4d1d63 50%,
     #030243 100%
   );
-
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100%;
-  color: white;
+  color: white !important;
+}
+.nav-link,
+nav {
+  color: white !important;
 }
