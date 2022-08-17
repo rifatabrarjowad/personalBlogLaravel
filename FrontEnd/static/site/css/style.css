@@ -39,12 +39,12 @@ a#post-title:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-.btn-coustom {
+.btn-custom {
   background-color: #4d1d63 !important;
   color: white !important;
   border-width: 2px !important;
 }
-.btn-coustom:hover {
+.btn-custom:hover {
   background-color: white !important;
   color: black !important;
   border-color: #4d1d63 !important;
