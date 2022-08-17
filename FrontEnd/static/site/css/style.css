@@ -19,10 +19,25 @@ body {
 nav {
   color: white !important;
 }
-a#post-title:hover {
-  /* border-bottom: 2px solid; */
-  text-decoration: underline;
-  transition: all 300ms ease;
+a#post-title {
+  display: inline-block;
+  position: relative;
+}
+a#post-title:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0px;
+  left: 0;
+  background-color: #d42dab;
+  transform-origin: bottom right;
+  transition: transform 0.5s ease-out;
+}
+a#post-title:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 .btn-coustom {
   background-color: #4d1d63 !important;
@@ -34,4 +49,7 @@ a#post-title:hover {
   color: black !important;
   border-color: #4d1d63 !important;
   border-width: 2px !important;
+}
+h5.card-text {
+  font-weight: 400;
 }
