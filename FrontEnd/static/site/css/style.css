@@ -53,3 +53,12 @@ a#post-title:hover:after {
 h5.card-text {
   font-weight: 400;
 }
+.post-t h2 {
+  color: black !important;
+}
+.post.bg-white {
+  padding: 8%;
+  /* border-width: 2px !important; */
+  /* background-color: red !important; */
+  border-radius: 35px !important;
+}
