@@ -19,3 +19,19 @@ body {
 nav {
   color: white !important;
 }
+a#post-title:hover {
+  /* border-bottom: 2px solid; */
+  text-decoration: underline;
+  transition: all 300ms ease;
+}
+.btn-coustom {
+  background-color: #4d1d63 !important;
+  color: white !important;
+  border-width: 2px !important;
+}
+.btn-coustom:hover {
+  background-color: white !important;
+  color: black !important;
+  border-color: #4d1d63 !important;
+  border-width: 2px !important;
+}
