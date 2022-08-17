@@ -54,11 +54,19 @@ h5.card-text {
   font-weight: 400;
 }
 .post-t h2 {
-  color: black !important;
+  color: #4d1d63 !important;
 }
 .post.bg-white {
   padding: 8%;
   /* border-width: 2px !important; */
   /* background-color: red !important; */
   border-radius: 35px !important;
+}
+img.img-fluid.rounded {
+  border-radius: 50% !important;
+  height: 100% !important;
+  padding: 10%;
+}
+.card {
+  border: 1px solid #d42dab !important;
 }
