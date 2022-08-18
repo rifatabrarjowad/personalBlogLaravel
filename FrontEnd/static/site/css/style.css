@@ -69,4 +69,12 @@ img.img-fluid.rounded {
 }
 .card {
   border: 1px solid #d42dab !important;
+  border-radius: 35px !important;
+}
+.card-category {
+  border: 1px solid #d42dab !important;
+  border-radius: 25px !important;
+}
+h5.post-title.title.post-title.large:hover {
+  color: #d42dab !important;
 }
